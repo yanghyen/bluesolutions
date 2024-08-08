@@ -1,0 +1,67 @@
+# .NET
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# MSTest test Results
+TestResults
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Build Results
+*.Build.csdef
+
+# NPM Packages
+node_modules/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Application settings
+appsettings*.json
+appsettings*.json
+
+# macOS
+*.DS_Store
+
+# Others
+wwwroot/

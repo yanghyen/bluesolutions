@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Posts";
+}
+
+<h2>Posts</h2>
+
+<form asp-controller="Posts" asp-action="Index" method="post">
+    <div>
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required />
+    </div>
+    <div>
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required />
+    </div>
+    <div>
+        <label for="filePath">File Path:</label>
+        <input type="text" id="filePath" name="filePath" required />
+    </div>
+    <div>
+        <button type="submit">Search and Save</button>
+    </div>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div>@ViewBag.Message</div>
+}

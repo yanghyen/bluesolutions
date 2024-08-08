@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Post Search";
+}
+
+<h1>Post Search</h1>
+
+<form method="post">
+    <div>
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required />
+    </div>
+    <div>
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required />
+    </div>
+    <div>
+        <label for="filePath">File Path:</label>
+        <input type="text" id="filePath" name="filePath" required />
+    </div>
+    <button type="submit">Search and Save</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
